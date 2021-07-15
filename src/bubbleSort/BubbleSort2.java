@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Author: Deng Zhi Li
  * @Date: 2021/7/14 16:05
  */
-public class bubbleSort2 {
+public class BubbleSort2 {
     public static void bubbleSort2(int[] arr)
     {
         boolean swapped = true;

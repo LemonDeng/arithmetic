@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Author: Deng Zhi Li
  * @Date: 2021/7/14 8:57
  */
-public class bubbleSort {
+public class BubbleSort {
     public static void bubbleSort(int[] arr)
     {
         for (int i = 0;i < arr.length - 1;i++) //多少趟

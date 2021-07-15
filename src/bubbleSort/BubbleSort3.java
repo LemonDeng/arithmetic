@@ -8,13 +8,14 @@ import java.util.Arrays;
  * @Author: Deng Zhi Li
  * @Date: 2021/7/14 16:26
  */
-public class bubbleSort3 {
+public class BubbleSort3 {
     public static void bubbleSort(int[] arr) {
        boolean swapped = true;
 
+        // 最后一个没有经过排序的元素的下标
        int indexOfLastUnsortedElement = arr.length - 1;
 
-       //最后一次交换的位置
+        // 上次发生交换的位置
         int swappedIndex = -1;
         while (swapped)
        {
