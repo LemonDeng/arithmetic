@@ -37,7 +37,7 @@ public class SelectionSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
+//快速排序
     public static void main(String[] args) {
         int[] arr = new int[]{6,2,1,3,5,4};
         seletionSort(arr);
