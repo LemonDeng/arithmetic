@@ -5,6 +5,9 @@ import java.util.Arrays;
 /**
  * @ClassName:SelectionSort
  * @Description: 选择排序的思想是：双重循环遍历数组，每经过一轮比较，找到最小元素的下标，将其交换至首位。
+ * 0- (n-1)
+ * 1- (n-1)
+ * ....
  * @Author: Deng Zhi Li
  * @Date: 2021/7/16 8:53
  */
