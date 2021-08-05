@@ -16,7 +16,7 @@ import java.util.LinkedList;
  * @Date: 2021/8/4 13:43
  */
 public class LinkedListLeetCode203 {
-   
+
     public class ListNode {
         int val;
         ListNode next;
