@@ -15,7 +15,7 @@ package linkedListLeetCode18;
  * @Date: 2021/8/8 16:40
  */
 public class LinkedListLeetCode18 {
-
+    //18题
     public ListNode deleteNode(ListNode head, int val) {
             ListNode dummy = new ListNode(0);
             dummy.next = head;
