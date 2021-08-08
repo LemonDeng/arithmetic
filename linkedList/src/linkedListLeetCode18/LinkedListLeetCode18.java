@@ -17,21 +17,24 @@ package linkedListLeetCode18;
 public class LinkedListLeetCode18 {
     //18题
     public ListNode deleteNode(ListNode head, int val) {
-            ListNode dummy = new ListNode(0);
-            dummy.next = head;
-            ListNode pre = head,cur = head.next;
-            if (head.val == val) return head.next;
-            while (cur != null && cur.val != val)
-            {
-                pre = cur;
-                cur = cur.next;
-            }
-            if (cur != null)
-            {
-                pre.next = cur.next;
-            }
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode pre = dummy;
+        if (head.val == val)
+        {
+            dummy.next = head.next;
             return dummy.next;
-
+        }
+        while (head != null && head.val != val)
+        {
+            pre = head;
+            head = head.next;
+        }
+        if (head != null)
+        {
+            pre.next = head.next;
+        }
+        return dummy.next;
 }
     public class ListNode {
         int val;
