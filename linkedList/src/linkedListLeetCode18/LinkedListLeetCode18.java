@@ -20,11 +20,11 @@ public class LinkedListLeetCode18 {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pre = dummy;
-        if (head.val == val)
+       /* if (head.val == val)
         {
             dummy.next = head.next;
             return dummy.next;
-        }
+        }*/
         while (head != null && head.val != val)
         {
             pre = head;
