@@ -10,7 +10,7 @@ import java.util.Collections;
  * @Author: Deng Zhi Li
  * @Date: 2021/7/26 17:04
  */
-public class Array {
+public class Array<T> {
     //创建数组的方法1
     Integer[] a = {3,2,1};
 
